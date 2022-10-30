@@ -26,11 +26,17 @@ A *tool* is to be developed, however the tool will be implemented in a workflow 
 
 The expected/identified processes of the use case which appear in the process diagram are described below:
 *- Establish CO2 benchmark* : Requirements to the building’s level of CO2-emissions are established by the Contractor most likely from looking at reference projects and by complying with requirements on the subject as presented in the Danish Building Regulations effective from 2023 (BR23). 
+
 *- Design proposal* : From “Design concepts and requirements” provided by the Contractor, the designers (Architects/Engineers) will develop a design proposal for respective building parts or for the building as a whole and thus generate a BIM model in an IFC-file format as output.  
+
 *- Application of tool* : By inputting the IFC-file, the developed tool is expected to extract all relevant building elements and associated data and reorganize it in an excel-sheet in a specific way that is readable to LCAbyg v5.1.
+
 *- Convert Excel to JSON file* : As it is possible to integrate the json format directly in LCAbyg v5.1, a simple conversion of the generated output excel file to a json file format is done e.g. using online services.
+
 *- JSON import to LCAbyg v5.1* : the generated json file is imported into LCAbyg and results on CO2 emissions are generated and interpreted by the designer (Architect/Engineer). 
+
 *- Consult contractor for revision of “Design concepts and requirements”* : If the output CO2 emissions do NOT meet the established project benchmark, the contractor is consulted to check if the benchmark is realistic within the “Design concepts and requirements” of the project. If this is the case, the process loops back to the “Design proposal” phase where architects/engineers would need to adjust the design for a more sustainable design solution that conforms with the CO2 benchmark. 
+
 *- Final Design* : If the tool’s output (CO2 emission results from LCAbyg) DOES meet the CO2 benchmark established by the Contractor, the “loop” is broken and a potentially final design of the building project has been found. 
 
 Note that the tool application as proposed in the process diagram above requires that the designers (architects/engineers) are experienced with LCAbyg or at least have knowledge of the interpretation of results in LCAbyg. 
