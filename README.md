@@ -61,7 +61,10 @@ With the coming Danish law regulation starting from 2023 on making LCA an obliga
 Additionally, potential cost savings from use of the tool as mentioned above in “Business value” might benefit the user of the building e.g. lowering housing prices.  
 
 **3E**
+
+
 9. Our tool won't be able to replace the use of LCAByg as it can't generate LCA resutls directly. Thus our tool optimizes the workflow and limits the time used on generating results through LCAbyg. 
+
 
 10. The development of the tool is expected to follow a somewhat backwards approach. 
 
