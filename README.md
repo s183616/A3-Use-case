@@ -31,7 +31,7 @@ The expected/identified processes of the use case which appear in the process di
 
 Note that the tool application as proposed in the process diagram above requires that the designers (architects/engineers) are experienced with LCAbyg or at least have knowledge of the interpretation of results in LCAbyg. 
 
-##3C: 
+**3C** 
 
 BELLA - afhænger af excel svar.. 
 Information Exchange: BELLA - ved ikke lige hvad du har udfyldt med LOD..? 
@@ -42,7 +42,7 @@ No external sources are needed in the script of the tool as the “analysis” h
 assumptions??
 
 
-##3D:
+**3D**
 
 Business value: 
 The tool enables designers (architects/engineers) to gain insights on CO2 emissions while they design through simple conversion steps.
@@ -61,7 +61,7 @@ With the coming Danish law regulation starting from 2023 on making LCA an obliga
 
 Additionally, potential cost savings from use of the tool as mentioned above in “Business value” might benefit the user of the building e.g. lowering housing prices.  
 
-##3E:
+**3E**
 
 Your tool:
 Generate json folders
