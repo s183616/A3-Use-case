@@ -1,16 +1,18 @@
-# A3-Use-case
+# 41934 Advanced BIM, Assaignment 3 Use case
+## Group 16: Isabella Vad (s183616) and Amalie Hartvig Jensen (s183619)
 
-##3A:
+**3A**
 Goal: The goal of this tool is to provide an overview of LCA results (CO2 emissions) on building elements within a building project from an IFC- file.
 
 Model Use (Bim Uses):  
 BIM model which is IFC compatible with the information level comparable with DiKon LOD 200 - 400. 
 LCAByg v5.1
 
-##3B:
+**3B**
 Process: A process diagram of the use case has been modeled in BPMN.io and is displayed below. 
 A *tool* is to be developed, however the tool will be implemented in a workflow consisting of the processes specified below when working with LCA.  
-<img src="img/diagram_before">
+[Alt text](diagram_before)
+<img src=" img/diagram_before.svg ">
 
 Description of the process of the tool:
 The expected/identified processes of the use case which appear in the process diagram are described below:
