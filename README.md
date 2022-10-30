@@ -11,8 +11,8 @@ LCAByg v5.1
 **3B**
 Process: A process diagram of the use case has been modeled in BPMN.io and is displayed below. 
 A *tool* is to be developed, however the tool will be implemented in a workflow consisting of the processes specified below when working with LCA.  
-[Alt text](diagram_before)
-<img src=" img/diagram_before.svg ">
+(diagram_before)
+<img src="img/diagram_before">
 
 Description of the process of the tool:
 The expected/identified processes of the use case which appear in the process diagram are described below:
