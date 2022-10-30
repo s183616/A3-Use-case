@@ -32,19 +32,18 @@ The expected/identified processes of the use case which appear in the process di
 Note that the tool application as proposed in the process diagram above requires that the designers (architects/engineers) are experienced with LCAbyg or at least have knowledge of the interpretation of results in LCAbyg. 
 
 **3C** 
+We've filled out the DiKon excel template with the required LOD for our use case in the 5 stages of building execution 
+Our proposed tool can be used in all 5 stages hence the LOD varyies accordantly together with the accruacy of the LCA results. 
 
-BELLA - afhænger af excel svar.. 
-Information Exchange: BELLA - ved ikke lige hvad du har udfyldt med LOD..? 
-Possibility of different LOD depending on in which design phase the tool is used (application case). 
 IFC: 
-The data needed in the IFC-file are all physical elements and respective dimensions and materials. 
-No external sources are needed in the script of the tool as the “analysis” happens in LCAbyg. 
-assumptions??
+- The data needed in the IFC-file are all physical elements and respective dimensions, quantities and materials. 
+- No external sources are needed in the script of the tool as the “analysis” happens in LCAbyg. 
+- Assumptions can be made when being in the early stages. 
 
 
 **3D**
 
-Business value: 
+*Business value:* 
 The tool enables designers (architects/engineers) to gain insights on CO2 emissions while they design through simple conversion steps.
 This method is less time consuming than the traditional generation of LCA results within LCAbyg. 
 Furthermore, this might encourage designers to have an iterative approach to sustainable design already in the early design phases, e.g. by enabling quick comparison on emissions from different material use within the model or by keeping track of continuous CO2 check points.  
@@ -53,7 +52,7 @@ Thus the tool holds great business value in terms of cost and time efficiency.
 
 By generating numbers on CO2-emissions during the design stages, the tool will contribute to inform and support decision making processes towards more sustainable design. This is beneficial as sustainable design increases competitiveness in the modern building industry. 
 
-Societal value: 
+*Societal value:* 
 The topicality of the presented tool originates from the increased focus on sustainable development needed in society which is also reflected onto green transition in the building industry. 
 The tool supports sustainable building design, by enabling quick display of CO2-emissions with intent to encourage the more sustainable choice of materials.
 By contributing to sustainable building, the tool inevitably provides societal value.
