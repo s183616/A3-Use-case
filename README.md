@@ -2,6 +2,7 @@
 ## Group 16: Isabella Vad (s183616) and Amalie Hartvig Jensen (s183619)
 
 **3A**
+
 Goal: The goal of this tool is to provide an overview of LCA results (CO2 emissions) on building elements within a building project from an IFC- file.
 
 Model Use (Bim Uses):  
@@ -9,6 +10,7 @@ BIM model which is IFC compatible with the information level comparable with DiK
 LCAByg v5.1
 
 **3B**
+
 Process: A process diagram of the use case has been modeled in BPMN.io and is displayed below. 
 A *tool* is to be developed, however the tool will be implemented in a workflow consisting of the processes specified below when working with LCA.  
 ![current use case](diagram_before)
@@ -29,7 +31,9 @@ The expected/identified processes of the use case which appear in the process di
 
 Note that the tool application as proposed in the process diagram above requires that the designers (architects/engineers) are experienced with LCAbyg or at least have knowledge of the interpretation of results in LCAbyg. 
 
-##3C: BELLA - afhænger af excel svar.. 
+##3C: 
+
+BELLA - afhænger af excel svar.. 
 Information Exchange: BELLA - ved ikke lige hvad du har udfyldt med LOD..? 
 Possibility of different LOD depending on in which design phase the tool is used (application case). 
 IFC: 
@@ -39,6 +43,7 @@ assumptions??
 
 
 ##3D:
+
 Business value: 
 The tool enables designers (architects/engineers) to gain insights on CO2 emissions while they design through simple conversion steps.
 This method is less time consuming than the traditional generation of LCA results within LCAbyg. 
@@ -57,6 +62,7 @@ With the coming Danish law regulation starting from 2023 on making LCA an obliga
 Additionally, potential cost savings from use of the tool as mentioned above in “Business value” might benefit the user of the building e.g. lowering housing prices.  
 
 ##3E:
+
 Your tool:
 Generate json folders
 Open LCAbyg and load json folders 
