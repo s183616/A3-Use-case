@@ -3,15 +3,18 @@
 
 **3A**
 
-Goal: The goal of this tool is to provide an overview of LCA results (CO2 emissions) on building elements within a building project from an IFC- file.
+1. Goal: The goal of this tool is to provide an overview of LCA results (CO2 emissions) on building elements within a building project from an IFC- file.
 
-Model Use (Bim Uses):  
+2. Model Use (Bim Uses):  
+
 BIM model which is IFC compatible with the information level comparable with DiKon LOD 200 - 400. 
 LCAByg v5.1
 
 **3B**
 
-Process: A process diagram of the use case has been modeled in BPMN.io and is displayed below. 
+3. Process: 
+ 
+A process diagram of the use case has been modeled in BPMN.io and is displayed below. 
 A *tool* is to be developed, however the tool will be implemented in a workflow consisting of the processes specified below when working with LCA.  
 ![current use case](diagram_before)
 <img src=" diagram_before.svg">
@@ -19,7 +22,8 @@ A *tool* is to be developed, however the tool will be implemented in a workflow 
 ![Use case for proposed tool](diagram_tool)
 <img src=" diagram_tool.svg">
 
-Description of the process of the tool:
+4. Description of the process of the tool:
+
 The expected/identified processes of the use case which appear in the process diagram are described below:
 *Establish CO2 benchmark* : Requirements to the building’s level of CO2-emissions are established by the Contractor most likely from looking at reference projects and by complying with requirements on the subject as presented in the Danish Building Regulations effective from 2023 (BR23). 
 *Design proposal* : From “Design concepts and requirements” provided by the Contractor, the designers (Architects/Engineers) will develop a design proposal for respective building parts or for the building as a whole and thus generate a BIM model in an IFC-file format as output.  
@@ -32,10 +36,11 @@ The expected/identified processes of the use case which appear in the process di
 Note that the tool application as proposed in the process diagram above requires that the designers (architects/engineers) are experienced with LCAbyg or at least have knowledge of the interpretation of results in LCAbyg. 
 
 **3C** 
-We've filled out the DiKon excel template with the required LOD for our use case in the 5 stages of building execution 
+
+5. We've filled out the DiKon excel template with the required LOD for our use case in the 5 stages of building execution 
 Our proposed tool can be used in all 5 stages hence the LOD varyies accordantly together with the accruacy of the LCA results. 
 
-IFC: 
+6. IFC: 
 - The data needed in the IFC-file are all physical elements and respective dimensions, quantities and materials. 
 - No external sources are needed in the script of the tool as the “analysis” happens in LCAbyg. 
 - Assumptions can be made when being in the early stages. 
@@ -43,7 +48,7 @@ IFC:
 
 **3D**
 
-*Business value:* 
+*7. Business value:* 
 The tool enables designers (architects/engineers) to gain insights on CO2 emissions while they design through simple conversion steps.
 This method is less time consuming than the traditional generation of LCA results within LCAbyg. 
 Furthermore, this might encourage designers to have an iterative approach to sustainable design already in the early design phases, e.g. by enabling quick comparison on emissions from different material use within the model or by keeping track of continuous CO2 check points.  
@@ -52,7 +57,7 @@ Thus the tool holds great business value in terms of cost and time efficiency.
 
 By generating numbers on CO2-emissions during the design stages, the tool will contribute to inform and support decision making processes towards more sustainable design. This is beneficial as sustainable design increases competitiveness in the modern building industry. 
 
-*Societal value:* 
+*8. Societal value:* 
 The topicality of the presented tool originates from the increased focus on sustainable development needed in society which is also reflected onto green transition in the building industry. 
 The tool supports sustainable building design, by enabling quick display of CO2-emissions with intent to encourage the more sustainable choice of materials.
 By contributing to sustainable building, the tool inevitably provides societal value.
